@@ -5,7 +5,7 @@ from multiprocessing import cpu_count
 
 CYTHON_VERSION = '0.23.4'
 
-# WindowsError is not defined on unix systems
+# WindowsError is not defined on unix systems and systems
 try:
     WindowsError
 except NameError:
